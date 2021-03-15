@@ -1,0 +1,51 @@
+<!-- Welcome page-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<div class="outer">
+    <h1>Welcome!!!</h1>
+    <h3>You have successfully logged-in...</h3><br>
+    <div class="inner">
+    <p style="font-size: 20px;">Fill the following form to complete the sign-up procedure.</p>
+    
+    <form name="form1" method="post" action="action_page.php">
+        <p>
+            <label for="name">Name: </label><br>
+            <input type="text" name="name" id="name" placeholder="Your full name" autofocus required>
+        </p>
+        <p>
+            <label for="email">Email: </label><br>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="cell">Mobile No: </label><br>
+            <input type="tel" name="cell" id="cell">
+        </p>
+        <p>
+            <label for="dob">Date of birth: </label><br>
+            <input type="date" name="dob" id="dob">
+        </p>
+        <p>
+            <label for="username">Username: </label><br>
+            <input type="text" name="username" id="username" required>
+        </p>
+        <p>
+            <label for="password">Password: </label><br>
+            <input type="password" name="password" id="password" minlength="6" required>
+        </p>
+        <br>
+        <p>
+            <input type="submit" name="submit" id="submit" value="Submit">
+            <input type="reset" id="reset">
+        </p>
+    </form>
+</div>
+</div>
+</body>
+</html>

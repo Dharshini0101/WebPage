@@ -1,0 +1,58 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image:url("bg_img.jpg");  
+    font-family: "Arial, Helvetica, Futura";  
+}  
+.container{  
+        width: 400px;
+        height: 400px;
+        background: grey;   
+        overflow: hidden;
+        margin:auto;
+        margin-top: 100px;
+        padding: 30px;
+        border-radius: 10px ; 
+          
+}  
+.demo{
+	margin:20px;
+    padding:10px;
+}
+h1{  
+    text-align: center;  
+    color: black;  
+    padding: 10px;  
+    font-size: 40px;
+}  
+label{  
+    color: black;  
+    font-size: 25px; 
+
+}  
+#email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#submit{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-color: green;
+    color: white;    
+    font-size: 20px;
+}  
